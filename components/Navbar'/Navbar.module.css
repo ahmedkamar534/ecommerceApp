@@ -1,0 +1,44 @@
+.nav {
+  background-color: black;
+  color: white;
+  box-shadow: 0 8px 11px 2px #f44336;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-shadow: 2px 4px 3px #f44336;
+}
+.navcont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+}
+.nav li {
+  padding: 0px 5px;
+}
+.nav a {
+  color: white;
+  padding: 0 10px;
+}
+.nav a:hover {
+  color: red;
+}
+.nav span {
+  background-color: red;
+  padding: 0px 6px;
+  border-radius: 50%;
+}
+.warn {
+  background: firebrick;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}

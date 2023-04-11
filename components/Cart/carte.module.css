@@ -1,0 +1,25 @@
+.carte {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  order: 1px solid #eeeeee;
+  box-shadow: 1px 1px 0px 0 #d11b1b;
+  padding: 5px;
+}
+.carte button {
+  background-color: red;
+  padding: 5px;
+  border: navajowhite;
+  border-radius: 8px;
+  color: white;
+}
+.para {
+  margin: 0;
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 9px;
+}
+.carte p {
+  font-weight: bold;
+}
